@@ -27,6 +27,9 @@ def calculate(
     elif operation =="%2B":
         plus=num1+num2
         return{"message": f"{plus}"}
+    elif operation =="+":
+        plus=num1+num2
+        return{"message": f"{plus}"}
     else:
         return False
     
